@@ -38,7 +38,7 @@ export default function Modal({getClickedBtn}) {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(
-                    `<span className = "writer-content">Your are Little Angle<span>`
+                    `<span className = "writer-content">You are Little Angle<span>`
                   )
                   .pauseFor(1000)
                   .deleteAll()
