@@ -18,7 +18,7 @@ export default function Modal({getClickedBtn}) {
   }
 
   return (
-    <>
+    <div style={{width: '100%', display: 'flex', justifyContent: 'center'}}>
       <Button onClick={clickBtn} />
       {modal && (
         <motion.div
@@ -29,7 +29,7 @@ export default function Modal({getClickedBtn}) {
         >
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2 className="title-content">Hello Minh Thuận :333 </h2>
+            <h2 className="title-content">Hello Nhuhuynh :3333 </h2>
             <Typewriter
               options={{
                 autoStart: true,
@@ -43,7 +43,7 @@ export default function Modal({getClickedBtn}) {
                   .pauseFor(1000)
                   .deleteAll()
                   .typeString(
-                    `<span className = "writer-content">This is a small gift for you<span>`
+                    `<span className = "writer-content">Tặng em bé món quà vô tri xíu<span>`
                   )
                   .callFunction(() => {
                     setSubTile(true);
@@ -60,9 +60,8 @@ export default function Modal({getClickedBtn}) {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString(
-                      `<span>
-                      Cái này làm vuii vuiii cho bà. Chúc bà cứ vui vẽ và hoàn thành các
-                      ước mơ của bản thân. Hmmmm phải có trái tim chứ nhệ :v. Đợi tý tui mở cái nút hiện trái tim lên keke From Tahitian with Love.
+                      `<span >
+                      Hello Nhuhuynh. Chúc em luôn vui vẽ và ngày càng xinh đẹp. Trend muộn nhưng có trái timm nhee :v. Đợi tý tui mở cái nút hiện trái tim lên keke From Tahitian with Love.
                     </span>`
                     )
                     .pauseFor(500)
@@ -86,12 +85,9 @@ export default function Modal({getClickedBtn}) {
                 >Show Heart</motion.button>
               </Link>
             )}
-            <button className="close-modal" onClick={toggleModal}>
-              X
-            </button>
           </div>
         </motion.div>
       )}
-    </>
+    </div>
   );
 }

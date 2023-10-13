@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const Button = ({onClick}) => {
   return (
-    <div><motion.button onClick={onClick} whileTap={{width:"140px"}} className = "button-63">Nhấp chuột vào </motion.button></div>
+    <div><motion.button onClick={onClick} whileTap={{width:"140px"}} className = "button-63">Tui ở đây nè bấm vào</motion.button></div>
   )
 }
 
