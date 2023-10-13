@@ -38,12 +38,12 @@ export default function Modal({getClickedBtn}) {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(
-                    `<span className = "writer-content">You are Little Angle<span>`
+                    `<span className = "writer-content">Tặng em bé món quà vô tri xíu<span>`
                   )
                   .pauseFor(1000)
                   .deleteAll()
                   .typeString(
-                    `<span className = "writer-content">Tặng em bé món quà vô tri xíu<span>`
+                    `<span className = "writer-content">${'༼ つ ◕_◕ ༽つ o((>ω< ))o'}<span>`
                   )
                   .callFunction(() => {
                     setSubTile(true);
@@ -61,10 +61,10 @@ export default function Modal({getClickedBtn}) {
                   typewriter
                     .typeString(
                       `<span >
-                      Hello Nhuhuynh. Chúc em luôn vui vẽ và ngày càng xinh đẹp. Trend muộn nhưng có trái timm nhee :v. Đợi tý tui mở cái nút hiện trái tim lên keke
+                      ${'Hello Nhuhuynh. Chúc em luôn vui vẻ và ngày càng xinh đẹp. Trend muộn nhưng tặng cái trái tim khổng lồ nehhh. Đợi chút xíu có nút bấm mới mở lên được nhe (づ￣ 3￣)づ. Gooooooooooooo'}
                     </span>`
                     )
-                    .pauseFor(500)
+                    .pauseFor(1500)
                     .callFunction(() => {
                       setShowHeart(true);
                     })
