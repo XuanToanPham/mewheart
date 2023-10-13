@@ -61,18 +61,13 @@ export default function Modal({getClickedBtn}) {
                   typewriter
                     .typeString(
                       `<span >
-                      Hello Nhuhuynh. Chúc em luôn vui vẽ và ngày càng xinh đẹp. Trend muộn nhưng có trái timm nhee :v. Đợi tý tui mở cái nút hiện trái tim lên keke From Tahitian with Love.
+                      Hello Nhuhuynh. Chúc em luôn vui vẽ và ngày càng xinh đẹp. Trend muộn nhưng có trái timm nhee :v. Đợi tý tui mở cái nút hiện trái tim lên keke
                     </span>`
                     )
                     .pauseFor(500)
                     .callFunction(() => {
                       setShowHeart(true);
                     })
-                    .typeString(
-                      `<span>
-                        Đấy hiện lên rồi bấm vào đi.
-                      </span>`
-                    )
                     .start();
                 }}
               />
@@ -82,7 +77,7 @@ export default function Modal({getClickedBtn}) {
                 <motion.button
                   whileTap={{ width: 120 }}
                   className="show-heart"
-                >Show Heart</motion.button>
+                >Bấm vào đây nè</motion.button>
               </Link>
             )}
           </div>
